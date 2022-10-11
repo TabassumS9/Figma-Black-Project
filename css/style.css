@@ -1,0 +1,332 @@
+/* common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.align-center{
+    align-items: center;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.button{
+    font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+}
+/* common CSS Ends */
+/* Nav Section CSS Start */
+nav {
+    position: absolute;
+    width: 100%;
+}
+
+nav .logo{
+    width: 20%;
+}
+nav .menu{
+    width: 60%;
+}
+nav .menu ul{
+    text-align: center;
+}
+nav .menu ul li a{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    align-items: center;
+    padding: 25px 40px;
+
+}
+nav .contact{
+    width: 20%;
+    
+}
+nav .contact a{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    align-items: center;
+    padding: 25px 40px;
+    background: #676CDB;
+}
+nav ul li{
+    display: inline-block;
+    transition: 0.5s;
+}
+nav ul li:hover a{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 25px 40px;
+    background: #676CDB;
+}
+/* Nav Section CSS Ends */
+/* Banner Section CSS Start */
+#banner{
+    height: 752px;
+    background: url(../images/bk.jpg);
+    background-size: cover;
+    background-position: 70%;
+    background-repeat: no-repeat;
+}
+
+#banner .text h1{
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 120%;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+}
+#banner .text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 30px;
+}
+#banner .text p span{
+    color: white;
+}
+
+#banner .text a{
+    width: 203px;
+    height: 64px;
+    line-height: 64px;
+    left: 0px;
+    top: 138px;
+    display: inline-block;
+    text-align: center;
+}
+#banner .text a span{
+    padding-right: 10px;
+}
+#banner .text a:hover{
+    background-color: #676CDB;
+
+}
+/* Banner Section CSS Ends */
+/* Icon Section CSS Start */
+#icon{
+    background-color: #000000;
+}
+#icon span{
+    display: inline-block;
+    color: gray;
+    font-size: 53px;
+    margin:  20px 90px;
+    
+}
+/* Icon Section CSS Ends */
+/* Work Section CSS Start */
+#work{
+    background-color: #222A36;
+    padding: 123px 0;
+}
+#work .text{ 
+    
+    width: 20%;
+}
+#work .text span{
+    font-family: 'Playfair Display';
+font-weight: 700;
+font-size: 100px;
+line-height: 120%;
+color: #676CDB;
+}
+#work .text p{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 180%;
+color: #FFFFFF;
+}
+#work .card {
+    width: 80%;
+}
+#work .card h1{
+    font-weight: 700;
+font-size: 40px;
+line-height: 180%;
+text-align: center;
+color: #FFFFFF;
+padding-right: 40px;
+
+padding-bottom: 20px;
+}
+#work .card .card_group{
+    display: flex;
+}
+#work .card .card_group .cardg{
+    width: calc(33.33% - 5px);
+    margin: 0 10px;
+    background: #C4C4C4;
+    color: #222A36;
+}
+#work .card .card_group .cardg{
+    height: 295px;
+    width: 288px;
+    padding-right: 40px;
+    padding-top:20%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+#work .card .card_group .cardg p{
+    font-weight: 700;
+    font-size: 20px;
+    padding-right: 120px;
+}
+#work .card .card_group .cardg p span{
+    padding-right: 200px;
+}
+#work .card .card_group .cardg:hover{
+    background-color: #676CDB;
+    color: white;
+}
+/* Work Section CSS Ends */
+/* Client Section CSS Start */
+#client{
+    background: rgba(34, 42, 54, 0.95);
+    padding: 100px 0;
+}
+#client .photo_text{
+    width: 80%;
+}
+#client .photo_text .image{
+    width: 30%;
+}
+#client .photo_text .text{
+    width: 70%;
+    padding-right: 70px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    padding-left: 85px;
+}
+#client .photo_text .text span{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 90px;
+    line-height:110%;
+}
+#client .photo_text .text p{
+    padding-bottom: 20px;
+}
+#client .photo_text .text .icon{
+    color: #676CDB;
+    font-size: 25px;
+    padding-left: 40px;
+}
+#client .review{
+    width: 20%;
+}
+#client .review h1{
+    font-family: 'Playfair Display';
+font-weight: 700;
+font-size: 30px;
+line-height: 120%;
+color: #FFFFFF;
+padding: 10px 0;
+}
+#client .review p{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 120%;
+color: #676CDB;
+}
+/* Client Section CSS Ends */
+/* Main footer section CSS Start */
+#footer{
+    background-color: #000000;
+    padding: 100px 0;
+}
+#footer .icon{
+    width: 40%;
+}
+#footer .icon p{
+    font-weight: 700;
+font-size: 100px;
+line-height: 120%;
+color: #FFFFFF;
+}
+#footer .icon .icon_group{
+    color: white;
+    
+}
+#footer .icon .icon_group span{
+    padding-left: 40px;
+    font-size: 30px;
+}
+#footer .form{
+    width: 60%;
+    color: white;
+    padding-left: 100px;
+    font-weight: 500;
+font-size: 30px;
+line-height: 120%;
+}
+#footer .form textarea{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    height: 60px;
+}
+#footer .form a{
+    font-weight: 500;
+font-size: 30px;
+line-height: 120%;
+color: #676CDB;
+text-decoration: none;
+background-color: none;
+}
+#footer .form a span{
+    padding-left: 40px;
+}
+/* Main footer section CSS Ends*/
+/* footer Section CSS Start */
+#last{
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 30px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 180%;
+letter-spacing: 0.3px;
+color: rgba(255, 255, 255, 0.5);
+}
+#last span{
+    color: white;
+}
+/* footer Section CSS Ends */
